@@ -1,0 +1,1550 @@
+[
+ {
+  "module": "SHELL32",
+  "name": "ShellExecuteA",
+  "ea": "0x00633164",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "DeleteFileA",
+  "ea": "0x00633024",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "ReadFile",
+  "ea": "0x00633028",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "WriteFile",
+  "ea": "0x0063302c",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FindClose",
+  "ea": "0x00633030",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetVersionExA",
+  "ea": "0x00633034",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetModuleFileNameA",
+  "ea": "0x00633038",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FindFirstFileA",
+  "ea": "0x0063303c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CloseHandle",
+  "ea": "0x00633040",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CreateFileA",
+  "ea": "0x00633044",
+  "nargs": 7,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetSystemTime",
+  "ea": "0x00633048",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FindNextFileA",
+  "ea": "0x0063304c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalMemoryStatus",
+  "ea": "0x00633050",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FreeLibrary",
+  "ea": "0x00633054",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetProcAddress",
+  "ea": "0x00633058",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "LoadLibraryA",
+  "ea": "0x0063305c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "_hread",
+  "ea": "0x00633060",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalFree",
+  "ea": "0x00633064",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalUnlock",
+  "ea": "0x00633068",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "_lclose",
+  "ea": "0x0063306c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalLock",
+  "ea": "0x00633070",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalAlloc",
+  "ea": "0x00633074",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GlobalReAlloc",
+  "ea": "0x00633078",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "lstrcpyA",
+  "ea": "0x0063307c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetDriveTypeA",
+  "ea": "0x00633080",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "WritePrivateProfileStringA",
+  "ea": "0x00633084",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetPrivateProfileStringA",
+  "ea": "0x00633088",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetTickCount",
+  "ea": "0x0063308c",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "Sleep",
+  "ea": "0x00633090",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CopyFileA",
+  "ea": "0x00633094",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetLastError",
+  "ea": "0x00633098",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapCreate",
+  "ea": "0x0063309c",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "RaiseException",
+  "ea": "0x006330a0",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapSize",
+  "ea": "0x006330a4",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "RtlUnwind",
+  "ea": "0x006330a8",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "TerminateProcess",
+  "ea": "0x006330ac",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapReAlloc",
+  "ea": "0x006330b0",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetCurrentProcess",
+  "ea": "0x006330b4",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "LCMapStringA",
+  "ea": "0x006330b8",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "WideCharToMultiByte",
+  "ea": "0x006330bc",
+  "nargs": 8,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "LCMapStringW",
+  "ea": "0x006330c0",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "ExitProcess",
+  "ea": "0x006330c4",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetCommandLineA",
+  "ea": "0x006330c8",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "MultiByteToWideChar",
+  "ea": "0x006330cc",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetModuleHandleA",
+  "ea": "0x006330d0",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CreateDirectoryA",
+  "ea": "0x006330d4",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetStartupInfoA",
+  "ea": "0x006330d8",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapAlloc",
+  "ea": "0x006330dc",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "IsBadReadPtr",
+  "ea": "0x006330e0",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapFree",
+  "ea": "0x006330e4",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FileTimeToSystemTime",
+  "ea": "0x006330e8",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetLocalTime",
+  "ea": "0x006330ec",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FileTimeToLocalFileTime",
+  "ea": "0x006330f0",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetVersion",
+  "ea": "0x006330f4",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "VirtualFree",
+  "ea": "0x006330f8",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetTimeZoneInformation",
+  "ea": "0x006330fc",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetFilePointer",
+  "ea": "0x00633100",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetHandleCount",
+  "ea": "0x00633104",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "VirtualAlloc",
+  "ea": "0x00633108",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetFileType",
+  "ea": "0x0063310c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FlushFileBuffers",
+  "ea": "0x00633110",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetStdHandle",
+  "ea": "0x00633114",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FreeEnvironmentStringsA",
+  "ea": "0x00633118",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "FreeEnvironmentStringsW",
+  "ea": "0x0063311c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "UnhandledExceptionFilter",
+  "ea": "0x00633120",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetEnvironmentStringsW",
+  "ea": "0x00633124",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetCPInfo",
+  "ea": "0x00633128",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "HeapDestroy",
+  "ea": "0x0063312c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetEnvironmentStrings",
+  "ea": "0x00633130",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetACP",
+  "ea": "0x00633134",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetOEMCP",
+  "ea": "0x00633138",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetStdHandle",
+  "ea": "0x0063313c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetStringTypeA",
+  "ea": "0x00633140",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "GetStringTypeW",
+  "ea": "0x00633144",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetUnhandledExceptionFilter",
+  "ea": "0x00633148",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetEndOfFile",
+  "ea": "0x0063314c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "IsBadCodePtr",
+  "ea": "0x00633150",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CompareStringA",
+  "ea": "0x00633154",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "CompareStringW",
+  "ea": "0x00633158",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "KERNEL32",
+  "name": "SetEnvironmentVariableA",
+  "ea": "0x0063315c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetMenu",
+  "ea": "0x0063316c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ScreenToClient",
+  "ea": "0x00633170",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetSystemMetrics",
+  "ea": "0x00633174",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "DestroyMenu",
+  "ea": "0x00633178",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ChangeDisplaySettingsA",
+  "ea": "0x0063317c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetDesktopWindow",
+  "ea": "0x00633180",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetDC",
+  "ea": "0x00633184",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ReleaseDC",
+  "ea": "0x00633188",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SystemParametersInfoA",
+  "ea": "0x0063318c",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "CreateWindowExA",
+  "ea": "0x00633190",
+  "nargs": 12,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetWindowTextA",
+  "ea": "0x00633194",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetWindowRect",
+  "ea": "0x00633198",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "MoveWindow",
+  "ea": "0x0063319c",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetWindowLongA",
+  "ea": "0x006331a0",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "DefWindowProcA",
+  "ea": "0x006331a4",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "BeginPaint",
+  "ea": "0x006331a8",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "EndPaint",
+  "ea": "0x006331ac",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetCapture",
+  "ea": "0x006331b0",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetKeyState",
+  "ea": "0x006331b4",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ReleaseCapture",
+  "ea": "0x006331b8",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetWindowPlacement",
+  "ea": "0x006331bc",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "EnumDisplaySettingsA",
+  "ea": "0x006331c0",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetTimer",
+  "ea": "0x006331c4",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "LoadIconA",
+  "ea": "0x006331c8",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "RegisterClassA",
+  "ea": "0x006331cc",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "UnionRect",
+  "ea": "0x006331d0",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetWindowLongA",
+  "ea": "0x006331d4",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "WinHelpA",
+  "ea": "0x006331d8",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "OffsetRect",
+  "ea": "0x006331dc",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetForegroundWindow",
+  "ea": "0x006331e0",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetAsyncKeyState",
+  "ea": "0x006331e4",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "UpdateWindow",
+  "ea": "0x006331e8",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetClientRect",
+  "ea": "0x006331ec",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "InvalidateRect",
+  "ea": "0x006331f0",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetCursor",
+  "ea": "0x006331f4",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "MessageBoxA",
+  "ea": "0x006331f8",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "LoadCursorA",
+  "ea": "0x006331fc",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetForegroundWindow",
+  "ea": "0x00633200",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "EnableMenuItem",
+  "ea": "0x00633204",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ModifyMenuA",
+  "ea": "0x00633208",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetMenu",
+  "ea": "0x0063320c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "LoadMenuA",
+  "ea": "0x00633210",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetSubMenu",
+  "ea": "0x00633214",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "CheckMenuItem",
+  "ea": "0x00633218",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetMenuItemCount",
+  "ea": "0x0063321c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "InsertMenuA",
+  "ea": "0x00633220",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "IsRectEmpty",
+  "ea": "0x00633224",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "DrawMenuBar",
+  "ea": "0x00633228",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "wsprintfA",
+  "ea": "0x0063322c",
+  "nargs": 4,
+  "conv": "cdecl",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "PeekMessageA",
+  "ea": "0x00633230",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetRect",
+  "ea": "0x00633234",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "IntersectRect",
+  "ea": "0x00633238",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "GetCursorPos",
+  "ea": "0x0063323c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "TranslateMessage",
+  "ea": "0x00633240",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "DispatchMessageA",
+  "ea": "0x00633244",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SendMessageA",
+  "ea": "0x00633248",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "WindowFromPoint",
+  "ea": "0x0063324c",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "SetCursorPos",
+  "ea": "0x00633250",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "ShowWindow",
+  "ea": "0x00633254",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "USER32",
+  "name": "DestroyWindow",
+  "ea": "0x00633258",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "RealizePalette",
+  "ea": "0x00633000",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "GetDeviceCaps",
+  "ea": "0x00633004",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "DeleteObject",
+  "ea": "0x00633008",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "SelectPalette",
+  "ea": "0x0063300c",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "CreatePalette",
+  "ea": "0x00633010",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "GetStockObject",
+  "ea": "0x00633014",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "SetDIBitsToDevice",
+  "ea": "0x00633018",
+  "nargs": 12,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "GDI32",
+  "name": "PatBlt",
+  "ea": "0x0063301c",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutWrite",
+  "ea": "0x00633260",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutPrepareHeader",
+  "ea": "0x00633264",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "joyGetPos",
+  "ea": "0x00633268",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "joyGetNumDevs",
+  "ea": "0x0063326c",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "joySetCapture",
+  "ea": "0x00633270",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "joySetThreshold",
+  "ea": "0x00633274",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "joyReleaseCapture",
+  "ea": "0x00633278",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutReset",
+  "ea": "0x0063327c",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutUnprepareHeader",
+  "ea": "0x00633280",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutClose",
+  "ea": "0x00633284",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutOpen",
+  "ea": "0x00633288",
+  "nargs": 6,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutGetNumDevs",
+  "ea": "0x0063328c",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "timeGetTime",
+  "ea": "0x00633290",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutGetPosition",
+  "ea": "0x00633294",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mmioOpenA",
+  "ea": "0x00633298",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mmioDescend",
+  "ea": "0x0063329c",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mmioRead",
+  "ea": "0x006332a0",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mmioAscend",
+  "ea": "0x006332a4",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mmioClose",
+  "ea": "0x006332a8",
+  "nargs": 2,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "mciSendCommandA",
+  "ea": "0x006332ac",
+  "nargs": 4,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "WINMM",
+  "name": "waveOutGetDevCapsA",
+  "ea": "0x006332b0",
+  "nargs": 3,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "ole32",
+  "name": "CoInitialize",
+  "ea": "0x006332b8",
+  "nargs": 1,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "ole32",
+  "name": "CoUninitialize",
+  "ea": "0x006332bc",
+  "nargs": 0,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ },
+ {
+  "module": "ole32",
+  "name": "CoCreateInstance",
+  "ea": "0x006332c0",
+  "nargs": 5,
+  "conv": "stdcall",
+  "source": "nm",
+  "confidence": "high"
+ }
+]

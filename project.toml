@@ -1,0 +1,110 @@
+# Copy this file to a new project and edit the values.
+# Addresses are absolute virtual addresses in the original 32-bit PE image.
+
+[project]
+name        = "Hoyle Casino 4"
+arch        = "x86"
+exe         = "orig/Casino4.exe"
+host_exe    = "HoyleCasino4.exe"
+host_name   = "Hoyle Casino 4"
+image_base  = 0x400000
+entry       = 0x626fb0
+code_lo     = 0x401000
+code_hi     = 0x633000
+image_end   = 0x715000
+guest_size  = 0x320000
+tail_size   = 0
+data_patches = ["0x687150:00"]
+icon        = "assets/casino4.ico"
+
+[build]
+mingw32 = "D:/msys64/mingw32"
+libs    = ["psapi", "winmm", "ole32", "gdi32", "user32", "shell32", "advapi32", "comdlg32", "winspool"]
+cflags  = ["-O1", "-w", "-g"]
+stack   = 0x10000000
+heap    = 0x10000000
+
+[imports]
+cdecl_modules = ["msvcrt"]
+libs = ["libkernel32.a", "libuser32.a", "libgdi32.a", "libshell32.a", "libole32.a",
+        "libwinmm.a", "libcomdlg32.a", "libadvapi32.a", "libwinspool.a", "libdbghelp.a"]
+# Argument counts for cdecl imports that are not exported with a decorated name in the MinGW import libraries.
+[imports.nargs]
+alBufferData = 5
+alSourcei = 3
+alSourcef = 3
+alSourcefv = 3
+alSourcePlay = 1
+alSourceStop = 1
+alSourcePause = 1
+alSourceRewind = 1
+alSource3f = 5
+alGenBuffers = 2
+alGenSources = 2
+alDeleteBuffers = 2
+alDeleteSources = 2
+alGetError = 0
+alGetString = 1
+alGetSourcei = 3
+alGetSourcef = 3
+alGetBufferi = 3
+alGetListenerfv = 2
+alListenerfv = 2
+alListenerf = 3
+alSourceQueueBuffers = 3
+alSourceUnqueueBuffers = 3
+alcOpenDevice = 1
+alcCloseDevice = 1
+alcCreateContext = 2
+alcMakeContextCurrent = 1
+alcDestroyContext = 1
+alcGetCurrentContext = 0
+alcGetContextsDevice = 1
+
+[wasm]
+# emcc to use; empty checks SS_EMCC, build/emsdk/upstream/emscripten, then PATH.
+emcc           = "G:/Development/C/emsdk/upstream/emscripten/emcc.exe"
+# 0 = image_base + guest_size + tail_size, rounded up to 64 KB.
+global_base    = 0
+initial_memory = 0x20000000
+stack_size     = 0x1000000
+guest_stack    = 0x800000
+width          = 640
+height         = 480
+data_dir       = "D:/Games/CASINO4"
+data_parts     = 4
+
+[ida]
+out        = "ida"
+project    = "target"
+signatures = ["vc32rtf", "vc32mfc", "vc32mfce", "vc7atl", "vc8atl", "vcseh", "vcextra",
+              "vc32_14", "vc32ucrt", "mssdk32", "msmfc2", "msmfc2u", "msddk32", "ms32wdk", "pe", "exe"]
+
+[analyzer]
+command  = ""
+provider = "ghidra"
+timeout  = 900
+
+[lift]
+skip_categories = ["other"]
+skip = []
+wrap = []
+chunk = 120
+max_functions_per_file = 150
+
+[classify]
+# Optional address ranges: [[0x401000, 0x500000, "app"], [0x500000, 0x600000, "lib:crt"]]
+ranges = []
+
+[layout]
+# Class/prefix name fragments used to choose the source folder. First match wins.
+areas = [
+  ["gui",    "Gui|Window|Dialog|Menu|Button|Scroll|Tab|Text|Popup|Tooltip|Slider|Hud|Cursor|Screen|Panel|Controls"],
+  ["gfx",    "GL|OpenGL|DX9|Render|Pixel|Image|Bitmap|Png|Jpeg|Gif|Dds|Dxt|Font|Draw|Color|Texture|Palette|Particle|Sprite|Shader|Display|Graphics"],
+  ["net",    "Net|Client|Connector|Packet|HTTP|DNS|SSL|Crypto|AES|DES|RC4|MD5|Base64|Socket|Server|Download|Url|Web"],
+  ["script", "Script|Event|Trigger|Npc|Class"],
+  ["game",   "Game|Player|Level|Map|Item|Anim|Weapon|Body|Head"],
+  ["math",   "Point|Rect|Quat|Box|Matrix|Vec|Plane|Random|Math"],
+  ["audio",  "Sound|Audio|Music|Wave|Mixer"],
+  ["core",   "Str|String|Array|List|File|Path|Dir|Registry|Debug|Console|Profile|Process|Time|Memory|Heap|Thread|Lock|Object|Resource|Cache|Stream|Input|Key|Mouse|App|Shell"],
+]

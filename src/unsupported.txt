@@ -1,0 +1,13 @@
+00625050 00625239 bound eax, qword ptr [eax]
+00625050 0062523e bound eax, qword ptr [eax]
+00625050 00625246 bound eax, qword ptr [eax]
+00626da9 00626ec2 fnsave dword ptr [ecx + 8]
+00626da9 00626ece frstor dword ptr [ecx + 8]
+0062c470 0062c49d fxam 
+0062c4d7 0062c504 fxam 
+0062c4d7 0062c522 fxam 
+0062d286 0062d473 fnstenv [esp]
+0062d286 0062d482 fldenv [esp]
+0062f420 0062f60e bound eax, qword ptr [eax]
+0062f420 0062f612 bound eax, qword ptr [eax]
+0062f420 0062f614 pushal 
